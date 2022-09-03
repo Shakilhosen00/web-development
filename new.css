@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.main{
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to-top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  background-image: url("4.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+  
+}
+.navbar{
+  width: 1200px;
+  height: 80px;
+  margin: auto;
+
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 75px;
+
+}
+.logo{
+  color: rgb(2, 30, 29);
+  font-size: 35px;
+  font-family: cursive;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+  }
+  .manu{width: 400PX;
+  float: left;
+height: 80PX;
+}
+.manu ul{
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 20px;
+  
+  
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Courier New';
+  font-weight: bold;
+  transition: 0.4s ease;
+}
+ul li a:hover{
+  color:green;
+}
+.serach{
+  width:330 px;
+  float:left;
+  margin-left:500px;
+}
+.serc{
+  padding-top:5px;
+  padding-bottom: 5px;
+  width: 200px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 15px;
+  color: white;
+  font-size:20px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+  
+}
+.btn{width: 150px;
+height: 40px;
+border-radius: 15px;
+padding-bottom: 5px;
+padding-top: 5px;
+margin-top: 8px;
+background-color: rgb(23, 226, 216);
+border: 2px solid black;
+color: white;
+font-size: 25px;
+font-family: Arial;
+font-weight: bold;
+}
+.btn{outline: none;}
+.serc{outline: none;}
+.shak{
+  width:400px;
+  height:auto;
+  margin:20px;
+  font-size:42px;
+color:white;
+position: relative;
+
+}
+.shak p{
+  padding-top: 10px;
+  padding-left:20px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  color: rgb(13, 7, 8);
+}
+.shak tu{ color: rgb(214, 44, 92);
+
+}
+.shak button{width:150px;
+height: 45px;
+background-color: rgb(233, 15, 15);
+font-size: 20px;
+font-weight: bold;
+font-family: Arial;
+border-radius: 15px;
+}
+.shak button a{
+  text-decoration: none;
+}
